@@ -80,7 +80,11 @@
     .picture{
         width: 79px;
         height: 79px;
+        background-size: 70%;
         margin-bottom: 20px;
+    }
+    .picture_third{
+        background-size: 50%;
     }
     .title{
         margin-bottom: 20px;  
@@ -298,6 +302,9 @@
     .poster__text{
         font-size: 16px;
     }
+    .wrapper--poster{
+        padding: 120px 0 55px;
+    }
 }
 
 
@@ -322,15 +329,28 @@
         width: 35px;
         height: 35px;
     }
-    .button--design{
+    .grid__button, .button--design{
         width: 280px;
-    }
-    .grid__button {
-        width: 288px;
         height: 50px;
     }
     .text{
         font-size: 14px;
+    }
+    .picture{
+        width: 59px;
+        height: 59px;
+        background-size: 60%;
+        margin-bottom: 15px;
+    }
+    .picture_third{
+        background-size: 40%;
+    }
+    .poster__form {
+        min-width: 200px;
+    }
+    .icon {
+        width: 28px;
+        height: 28px;
     }
 }
 
