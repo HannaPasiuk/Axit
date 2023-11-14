@@ -11,6 +11,9 @@
 
 
 @media(max-width:1170px){
+    .answers,.price,.reviews,.design,.contact{
+        padding: 100px 0 60px;
+    }
     .poster__form{
     width: 320px;
     }
@@ -29,12 +32,13 @@
        font-size: 36px;
     }
     .poster__text{
-       font-size: 16px;
+       font-size: 18px;
     }
     .devider__poster{
         width: 115px;
     }
-    .poster h1, .devider__poster{
+    .poster h1,
+     .devider__poster{
         margin-bottom: 45px;
     }
     .button--poster{
@@ -81,7 +85,9 @@
     .title{
         margin-bottom: 20px;  
     }
-    tbody{
+    tbody, 
+    .rectangle,
+    .personality p{
         font-size: 16px;
     }
     .table thead th{
@@ -101,19 +107,12 @@
     .footer__block {
         column-gap: 20px;
     }
-    .rectangle{
-        font-size: 16px;
-    }
     .name {
         font-size: 20px;
     }
-    .personality p{
-        font-size: 16px;
-    }
-    .button--design{
-        width: 340px;
-    }
-    .grid__button {
+    .button--design,
+    .grid__button 
+    {
         width: 340px;
     }
 }
@@ -124,6 +123,9 @@
 
 
 @media(max-width:850px){
+    .answers,.price,.reviews,.design,.contact{
+        padding: 75px 0 55px 0;
+    }
   .wrapper__title{
         font-size: 24px;
         margin-bottom: 54px;
@@ -144,6 +146,10 @@
     }
     .answers__items{
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .answer__items-block{
+        width: 50%;
     }
     tbody{
         font-size: 14px;
@@ -204,7 +210,7 @@
 
 
 @media(max-width: 768px){
-
+  
     .answers,.price,.reviews,.design,.contact{
         padding: 80px 0 30px 0;
     }
@@ -215,7 +221,7 @@
     .wrapper--poster{
         flex-wrap: wrap;
         justify-content: center;
-        padding: 95px 0 75px;
+        padding: 180px 0 75px;
     }
      .hidden-menu{
         display: block;
@@ -234,8 +240,7 @@
         margin-bottom: 50px;
         align-items: center;
     }
-    .poster__text,
-    .text{
+    .text__footer{
         font-size: 14px;
     }
     .answers__items-block{
@@ -260,24 +265,24 @@
     .poster__info-logo{
         display: none;
     } 
-    .text__footer{
-        font-size: 14px;
-       }
        .price__table_item{
         width: 50%;
        }
 }
 
 @media(max-width: 600px){
+    .answers,.price,.reviews,.design,.contact{
+        padding: 50px 0 40px 0;
+    }
     .reviews__block {
         grid-template-columns: repeat(1, 1fr);
     }
     .block_item-grid{
         grid-column: 1;
-        width: 100%;
     }
     .contact__item-form,
-    .contact__item-text {
+    .contact__item-text,
+    .block_item-grid{
         width: 100%;
     }
    .textarea{
@@ -289,6 +294,9 @@
     .icon{
         width: 40px;
         height: 40px;
+    }
+    .poster__text{
+        font-size: 16px;
     }
 }
 
@@ -321,7 +329,9 @@
         width: 288px;
         height: 50px;
     }
-  
+    .text{
+        font-size: 14px;
+    }
 }
 
 
